@@ -14,7 +14,7 @@ spec:
     targetRevision: main         # Git branch, tag, or commit to track
     path: monitoring/chai-app    # Path within the repo where manifests are located
   destination:
-    server: https://kubernetes.default.svc # Kubernetes API server address (in-cluster)
+    server: https://172.31.27.48:33893  # Kubernetes API server address (in-cluster)
     namespace: default            # Namespace where the app will be deployed
   syncPolicy:
     automated:
